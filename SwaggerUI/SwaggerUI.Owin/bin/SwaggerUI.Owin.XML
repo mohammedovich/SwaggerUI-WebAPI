@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerUI.Owin</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerUI.Owin.Controllers.HomeController.Get">
+            <summary>
+            Gets data from service
+            </summary>
+            <returns>list of values</returns>
+        </member>
+        <member name="M:SwaggerUI.Owin.Controllers.HomeController.Get(System.Int32)">
+            <summary>
+            Get a specific value by Id
+            </summary>
+            <param name="id">value integer id</param>
+            <returns>a single value by Id</returns>
+        </member>
+        <member name="M:SwaggerUI.Owin.Controllers.HomeController.Post(System.String)">
+            <summary>
+            Accept an incoming request
+            </summary>
+            <param name="value">string <paramref name="value"/></param>
+        </member>
+        <member name="M:SwaggerUI.Owin.Controllers.HomeController.Put(System.Int32,System.String)">
+            <summary>
+            Persist incoming request
+            </summary>
+            <param name="id"><paramref name="value"/> integer id</param>
+            <param name="value">string value</param>
+        </member>
+        <member name="M:SwaggerUI.Owin.Controllers.HomeController.Delete(System.Int32)">
+            <summary>
+            Delete value
+            </summary>
+            <param name="id">value integer id</param>
+        </member>
+    </members>
+</doc>
